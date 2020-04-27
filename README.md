@@ -17,7 +17,8 @@ or
 require:
 ```json
 "php": ">=7.0",
-"nette/di": ">=2.4"
+"nette/di": ">=2.4",
+"filipsedivy/php-eet": ">=4.2"
 ```
 
 Include in application
