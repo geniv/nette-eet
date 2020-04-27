@@ -1,4 +1,5 @@
-# EET
+EET
+===
 
 via:
 - https://github.com/contributte/eet
