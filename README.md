@@ -70,6 +70,7 @@ final class SomePresenter extends Nette\Application\UI\Presenter
 
         try {
             $client = $this->client->create();
+            //$client = $this->client->createByCertificate( new CertificateFactory(__DIR__ . '/../../vendor/filipsedivy/php-eet/tests/data/EET_CA1_Playground-CZ00000019.p12', 'eet'));
             $client->send($receipt);
 
             $this->payment->eet->save_success($client->getFik(), $client->getPkp());
