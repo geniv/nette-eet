@@ -44,4 +44,17 @@ class ClientFactory
         $certificate = $this->certificateFactory->create();
         return new Dispatcher($certificate, $this->service, $this->validate);
     }
+
+
+    /**
+     * Create by certificate.
+     *
+     * @param CertificateFactory $certificateFactory for manual certificate factory
+     * @return Dispatcher
+     */
+    public function createByCertificate(CertificateFactory $certificateFactory): Dispatcher
+    {
+        $certificate = $certificateFactory->create();
+        return new Dispatcher($certificate, $this->service, $this->validate);
+    }
 }
