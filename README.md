@@ -3,6 +3,7 @@ EET
 
 via:
 - https://github.com/contributte/eet
+- https://www.etrzby.cz/cs/technicka-specifikace (Formát a struktura údajů o evidované tržbě a popis datového rozhraní pro příjem datových zpráv evidovaných tržeb)
 
 Installation
 ------------
